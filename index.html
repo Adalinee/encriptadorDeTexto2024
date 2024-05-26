@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <a href="#" rel="">
+            <img src="img/alura.png" alt="logo alura" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <img src="img/aviso.svg" alt="icono alerta" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+                <button type="submit" class="btn-eliminar">Eliminar texto</button>
+            </div>
+        </section>
+
+        <section class="foto">
+            <div class="tarjeta-contendor">
+                <img src="img/waifu.png" alt="imagen bella" class="img-foto">
+                <p class="texto-uno">No se encontro ningun mensaje</p>
+                <p class="texto-dos">Ingrese el texto que desea Encriptar o Desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copirai">&copy; copyrigth 2024 - encriptador de texto desarrollado por Leydy rodriguez </p>
+        <a href="https://www.linkedin.com/in/daniela-londo%C3%B1o-0774782b4" rel=""><img src="img/linkedin.svg" alt="icono linkedin" class="linkedin"></a>
+        <a href="https://github.com/Adalinee" rel=""><img src="img/github.svg" alt="icono github" class="github"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
